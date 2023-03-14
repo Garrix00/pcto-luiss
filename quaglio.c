@@ -3,7 +3,7 @@
 int main()
 {
     char sesso;
-    printf("sei maschio o femmina? ");
+    printf("sei maschio, femmina o non binanario? ");
     scanf(" %c", &sesso);
     if (sesso == 'm')
     {
@@ -11,10 +11,14 @@ int main()
     }
     else if (sesso == 'f')
     {
-        printf("sei femmina\n");
+        printf("torna a lavare i piatti\n");
+    }
+    else if (sesso == 'n')
+    {
+        printf("sei uno scemo\n");
     }
     else
     {
-        printf("sei uno scemo\n");
+        printf("scemo riscrivi\n");
     }
 }
